@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- /META -->
+
+    <!-- TITLE -->
+    <title>Nitro - Landing</title>
+    <!-- /TITLE -->
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- /GOOGLE FONT -->
+
+    <!-- BOXICON -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- /BOXICON -->
+
+    <!-- STYLE -->
+    <link href='css/style.css' rel='stylesheet'>
+    <!-- /STYLE -->
+
+    <!--FAVICON-->
+    <link rel="icon" src="img/favicon/logo.svg"/>
+    <!--/FAVICON-->
+</head>
+<body>
+
+    <!-- NAVABR -->
+    <nav id="navbar">
+        <div style="font-weight: 800; font-size: 1.2rem;">Nitro</div>
+        <div class="nav-links">
+            <a href="#home">Inicio</a>
+            <a href="#sobre-nosotros">Sobre Nosotros</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+        <div>
+            <a href="https://github.com/CristianXDev/nitro" target="_blank" class="nav-btn"><i class="bx bxl-github"></i> Repositorio</a>
+        </div>
+    </nav>
+    <!-- /NAVABR -->
+
+    <!-- HEADER -->
+    <header class="hero">
+        <!-- Brillo Plateado -->
+        <div class="hero-glow"></div>
+
+        <!-- Figuras Flotantes -->
+        <div class="hero-bg-shapes">
+            <div class="floating-shape fs-1"></div>
+            <div class="floating-shape fs-2"></div>
+            <div class="floating-shape fs-3"></div>
+            <div class="floating-shape fs-4"></div>
+        </div>
+
+        <h1>Construye tu ventaja competitiva</h1>
+        <p>Deja de intentar. Empieza a escalar. Transformamos ideas complejas en ventajas competitivas.</p>
+        <div class="hero-transition"></div>
+    </header>
+    <!-- /HEADER -->
+
+    <!-- CARRUSEL -->
+    <section class="carousel-section" id="proyectos">
+        <div class="carousel-header">
+            <h2>Nuestros Proyectos</h2>
+            <div class="carousel-controls">
+                <button class="control-btn" id="prevBtn"><i class='bx bx-left-arrow-alt'></i></button>
+                <button class="control-btn" id="nextBtn"><i class='bx bx-right-arrow-alt'></i></button>
+            </div>
+        </div>
+
+        <div class="carousel-container" id="carouselContainer">
+            <div class="carousel-track" id="track">
+
+                <div class="template-card">
+                    <div class="card-images">
+                        <div class="img-main" style="background: url('img/project/learnx.png') center/cover;"></div>
+                        <div class="img-sub" style="background: #444;"></div>
+                        <div class="img-sub" style="background: #222;"></div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Learnx</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 10px;">Página educativa avanzada que integra Inteligencia Artificial para mejorar el proceso de aprendizaje.</p>
+                        <div class="badges-container">
+                            <span class="badge">Laravel</span>
+                            <span class="badge">Livewire</span>
+                            <span class="badge">API</span>
+                        </div>
+                        <div class="card-buttons">
+                            <a href="https://learnx.infinityfree.me/learnx/public/?i=1" target="_blank" class="card-btn btn-primary" style="text-decoration:none;"><i class='bx bx-show'></i> Ver proyecto</a>
+                            <a href="https://github.com/CristianXDev/Learnx" target="_blank" class="card-btn btn-secondary" style="text-decoration:none;"><i class='bx bxl-github'></i> Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="template-card">
+                    <div class="card-images">
+                        <div class="img-main" style="background: url('img/project/servicomida.png') center/cover;"></div>
+                        <div class="img-sub" style="background: #444;"></div>
+                        <div class="img-sub" style="background: #222;"></div>
+                    </div>
+                    <div class="card-info">
+                        <h3>ServiComida</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 10px;">Sistema de Punto de Venta (POS) especializado en comida, optimizando la gestión de pedidos y ventas.</p>
+                        <div class="badges-container">
+                            <span class="badge">PHP</span>
+                            <span class="badge">Bootstrap</span>
+                        </div>
+                        <div class="card-buttons">
+                            <a href="https://servi-comida.gt.tc/?i=1" target="_blank" class="card-btn btn-primary" style="text-decoration:none;"><i class='bx bx-show'></i> Ver proyecto</a>
+                            <a href="#" class="card-btn btn-secondary" style="text-decoration:none;"><i class='bx bxl-github'></i> Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="template-card">
+                    <div class="card-images">
+                        <div class="img-main" style="background: url('img/project/lm.png') center/cover;"></div>
+                        <div class="img-sub" style="background: #444;"></div>
+                        <div class="img-sub" style="background: #222;"></div>
+                    </div>
+                    <div class="card-info">
+                        <h3>LM - Monitor de Dólar</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 10px;">Aplicación de monitoreo de tasa de cambio del dolar en tiempo real con una interfaz minimalista y rápida.</p>
+                        <div class="badges-container">
+                            <span class="badge">React Native</span>
+                            <span class="badge">TypeScript</span>
+                            <span class="badge">API</span>
+                        </div>
+                        <div class="card-buttons">
+                            <a href="https://lm-beige-two.vercel.app/" target="_blank" class="card-btn btn-primary" style="text-decoration:none;"><i class='bx bx-show'></i> Ver proyecto</a>
+                            <a href="https://github.com/CristianXDev/LM" target="_blank" class="card-btn btn-secondary" style="text-decoration:none;"><i class='bx bxl-github'></i> Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="template-card">
+                    <div class="card-images">
+                        <div class="img-main" style="background: url('img/project/evilip.png') center/cover;"></div>
+                        <div class="img-sub" style="background: #444;"></div>
+                        <div class="img-sub" style="background: #222;"></div>
+                    </div>
+                    <div class="card-info">
+                        <h3>EvilIP</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 10px;">Sistema de trackeo de ip y funciones de speedtest de conexion integrados.</p>
+                        <div class="badges-container">
+                            <span class="badge">Bootstrap</span>
+                            <span class="badge">JS</span>
+                            <span class="badge">API</span>
+                        </div>
+                        <div class="card-buttons">
+                            <a href="https://evil-ip-rho.vercel.app/" target="_blank" class="card-btn btn-primary" style="text-decoration:none;"><i class='bx bx-show'></i> Ver proyecto</a>
+                            <a href="https://github.com/CristianXDev/EvilIP" target="_blank" class="card-btn btn-secondary" style="text-decoration:none;"><i class='bx bxl-github'></i> Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="template-card">
+                    <div class="card-images">
+                        <div class="img-main" style="background: url('img/project/kardex.png') center/cover;"></div>
+                        <div class="img-sub" style="background: #444;"></div>
+                        <div class="img-sub" style="background: #222;"></div>
+                    </div>
+                    <div class="card-info">
+                        <h3>KARDEX</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 10px;">Sistema de gestión de información estudiantil diseñado para optimizar el control académico y administrativo.</p>
+                        <div class="badges-container">
+                            <span class="badge">Laravel</span>
+                            <span class="badge">Livewire</span>
+                            <span class="badge">Bootstrap</span>
+                        </div>
+                        <div class="card-buttons">
+                            <a href="http://kardex.page.gd/kardex/public/" target="_blank" class="card-btn btn-primary" style="text-decoration:none;"><i class='bx bx-show'></i> Ver proyecto</a>
+                            <a href="https://github.com/CristianXDev/Sicradepma" target="_blank" class="card-btn btn-secondary" style="text-decoration:none;"><i class='bx bxl-github'></i> Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- /CARRUSEL -->
+
+
+    <!-- SERVICES -->
+    <section class="glass-section">
+        <div class="glass-card glass-tall glow-bottom-blue">
+            <div class="shape">
+                <div class="shape-diamond"></div>
+            </div>
+            <div>
+                <h2>Desarrollamos Aplicaciones a Medida</h2>
+                <p style="color: var(--text-muted); margin-top: 10px; font-size: 0.95rem; line-height: 1.5;">Transformamos ideas en productos digitales robustos y escalables, utilizando las tecnologías más modernas del mercado.</p>
+                <p style="color: var(--text-muted); margin-top: 15px; cursor:pointer; font-weight: 600;">Inicia tu proyecto &rarr;</p>
+            </div>
+        </div>
+<div class="glass-card gradient-bg-1" style="flex-direction: row; align-items: center;">
+            <div class="shape" style="margin: 0; margin-right: 20px;">
+                <div class="shape-circle"></div>
+            </div>
+            <div>
+                <p style="font-size: 0.8rem; letter-spacing: 1px;">TECNOLOGÍAS MODERNAS</p>
+                <h2>React, Vue.js, Angular, Node.js y Python, Laravel</h2>
+            </div>
+        </div>
+        <div class="glass-card glow-bottom-green">
+            <div class="shape">
+                <div class="shape-hexagon"></div>
+            </div>
+            <div>
+                <h2>Desarrollo Web y Móvil Full-Stack</h2>
+            </div>
+        </div>
+        <div class="glass-card glow-bottom-blue">
+            <div class="shape">
+                <div class="shape-circle" style="clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%); background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);"></div>
+            </div>
+            <div>
+                <h2>Integración con APIs e IA Avanzada</h2>
+            </div>
+        </div>
+    </section>
+    <!-- /SERVICES -->
+
+    <!-- TEAM -->
+    <section class="team-section" id="equipo">
+        <div class="team-header">
+            <h2>Nuestro Equipo</h2>
+            <p style="color: var(--text-muted); margin-top: 10px;">Las mentes creativas y técnicas detrás de cada línea de código.</p>
+        </div>
+
+        <div class="team-grid">
+            <!-- Miembro 1 -->
+            <div class="team-card">
+                <div class="team-img-wrapper">
+                    <img src="img/team/team-1.png" alt="Cristian Gerig" class="team-img">
+                </div>
+                <h3>Cristian Gerig</h3>
+                <p style="color: var(--text-primary); font-size: 0.9rem; font-weight: bold;">Full-Stack</p>
+                <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 5px;">Especialista en Laravel y arquitecturas escalables.</p>
+                <div class="team-social">
+                    <a href="https://github.com/CristianXDev" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/cristianxdev" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+
+            <!-- Miembro 2 -->
+            <div class="team-card">
+                <div class="team-img-wrapper">
+                    <img src="img/team/team-2.jpg" alt="Victor Duarte" class="team-img">
+                </div>
+                <h3>Victor Duarte</h3>
+                <p style="color: var(--text-primary); font-size: 0.9rem; font-weight: bold;">Full-Stack</p>
+                <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 5px;">Especialista en PHP y Unity muy versatil.</p>
+                <div class="team-social">
+                    <a href="https://www.linkedin.com/in/victor-duarte-114098360" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+
+            <!-- Miembro 3 -->
+            <div class="team-card">
+                <div class="team-img-wrapper">
+                    <img src="img/team/team-3.jpg" alt="Eduardo Díaz" class="team-img">
+                </div>
+                <h3>Eduardo Díaz</h3>
+                <p style="color: var(--text-primary); font-size: 0.9rem; font-weight: bold;">Diseñador grafico</p>
+                <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 5px;">Experto en identidad visual y diseño digital.</p>
+                <div class="team-social">
+                    <a href="https://www.linkedin.com/in/eduardo-díaz-herrada-26b521365" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /TEAM -->
+
+    <!-- WHATSAPP -->
+    <section class="whatsapp-section">
+        <div class="whatsapp-card">
+            <div class="whatsapp-info">
+                <h2><i class='bx bxl-whatsapp'></i> ¿Tienes un proyecto en mente?</h2>
+                <p>Escríbenos y definamos la ruta técnica más eficiente para tu proyecto.</p>
+            </div>
+            <a href="https://wa.me/584124327197?text=Hola!%20Vi%20tu%20portafolio%20y%20estoy%20interesado%20en%20tus%20servicios%20de%20desarrollo%20de%20software.%20Me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n." target="_blank" class="btn-whatsapp">
+                <i class='bx bxl-whatsapp' style="font-size: 1.5rem;"></i> Iniciar Chat En Whatsapp
+            </a>
+        </div>
+    </section>
+    <!-- /WHATSAPP -->
+
+    <!-- REVIEWS -->
+    <section class="reviews-section">
+        <div class="reviews-header">
+            <h2>Trustpilot - Excelente</h2>
+            <p style="color: var(--text-muted); margin-bottom: 10px;">Basado en <strong>1,245 opiniones</strong></p>
+            <div class="trustpilot-logo">
+                <i class='bx bxs-star'></i> Trustpilot
+            </div>
+        </div>
+
+        <div class="marquee-container">
+            <div class="marquee-track">
+                <!-- Set 1 -->
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Mi página carga instantáneamente ahora. El impacto en la retención de mis usuarios ha sido inmediato."</p>
+                    <div class="review-author">Marcos R. <i class='bx bxs-check-circle'></i></div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Lograron capturar la esencia de mi marca con un diseño limpio, intuitivo y muy profesional. Me encanta."</p>
+                    <div class="review-author">Laura M. <i class='bx bxs-check-circle'></i></div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"La adaptabilidad de la web es impecable. Mis clientes ahora navegan sin problemas desde cualquier dispositivo."</p>
+                    <div class="review-author">Carlos T. <i class='bx bxs-check-circle'></i></div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Excelente comunicación durante todo el desarrollo. Entendieron exactamente las necesidades de mi negocio."</p>
+                    <div class="review-author">Ana P. <i class='bx bxs-check-circle'></i></div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Desde que relanzamos la web, hemos subido posiciones en Google y el número de leads ha crecido notablemente."</p>
+                    <div class="review-author">Jorge L. <i class='bx bxs-check-circle'></i></div>
+                </div>
+
+                <!-- Set 2 (Clones) -->
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Mi página carga instantáneamente ahora. El impacto en la retención de mis usuarios ha sido inmediato."</p>
+                    <div class="review-author">Marcos R. <i class='bx bxs-check-circle'></i></div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Lograron capturar la esencia de mi marca con un diseño limpio, intuitivo y muy profesional. Me encanta."</p>
+                    <div class="review-author">Laura M. <i class='bx bxs-check-circle'></i></div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"La adaptabilidad de la web es impecable. Mis clientes ahora navegan sin problemas desde cualquier dispositivo."</p>
+                    <div class="review-author">Carlos T. <i class='bx bxs-check-circle'></i></div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Excelente comunicación durante todo el desarrollo. Entendieron exactamente las necesidades de mi negocio."</p>
+                    <div class="review-author">Ana P. <i class='bx bxs-check-circle'></i></div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Desde que relanzamos la web, hemos subido posiciones en Google y el número de leads ha crecido notablemente."</p>
+                    <div class="review-author">Jorge L. <i class='bx bxs-check-circle'></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /REVIEWS -->
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contacto">
+        <div class="contact-wrapper glow-bottom-blue">
+            <div class="contact-info">
+                <h2>Iniciemos el Despegue.</h2>
+                <p>¿Tienes una idea en mente o necesitas escalar tu infraestructura actual?</p>
+
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <i class='bx bx-envelope'></i>
+                        <div>
+                            <span style="display:block; font-weight: 800;">Email</span>
+                            <span style="color: var(--text-muted); font-size: 0.9rem;">hello@nitro.dev</span>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <i class='bx bx-map'></i>
+                        <div>
+                            <span style="display:block; font-weight: 800;">Ubicación</span>
+                            <span style="color: var(--text-muted); font-size: 0.9rem;">Aragua, Venezuela</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form class="modern-form" onsubmit="event.preventDefault();">
+                <input type="text" placeholder="Ej. Juan Pérez" required>
+                <input type="email" placeholder="correo@ejemplo.com" required>
+                <input type="text" placeholder="Ej. Desarrollo de página web, Consultoría técnica..." required style="width: 100%; padding: 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); background: rgba(0,0,0,0.2); color: #fff; margin-bottom: 15px; font-family: inherit;">
+                <textarea placeholder="Cuéntanos más sobre tu proyecto y cómo podemos ayudarte a despegar..." required></textarea>
+                <button type="submit" class="btn-submit">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+    <!-- /CONTACT -->
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>Nitro</h3>
+                <p>Empowering designers and developers to build stunning websites faster than ever before.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="#">Templates</a></li>
+                    <li><a href="#">Components</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Changelog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Tutorials</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Community</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Framer Clone. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-discord-alt'></i></a>
+                <a href="#"><i class='bx bxl-dribbble'></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- /FOOTER -->
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+    <!-- /JS -->
+</body>
+</html>
