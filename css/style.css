@@ -75,9 +75,15 @@ nav.scrolled {
     font-weight: 800;
 }
 
-nav img{
-   position:relative;
-   top:8px;
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-logo span{
+    font-weight: 800;
+    font-size: 1.2rem; 
 }
 
 /* ========================
