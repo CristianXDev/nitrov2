@@ -322,9 +322,9 @@ nav img{
 }
 
 @media (max-width: 768px) {
-    .hero .blou {
-        left: 0rem;
-        bottom: 10rem;
+    .hero .bloub {
+        left: 1rem;
+        bottom: 1rem;
         width: 35vw;
         max-width: 150px;
     }
