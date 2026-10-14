@@ -291,7 +291,7 @@ nav img{
 }
 
 .hero h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 800;
     line-height: 1.1;
     margin-bottom: 1rem;
@@ -302,6 +302,32 @@ nav img{
     font-size: 1.2rem;
     color: var(--text-muted);
     max-width: 500px;
+}
+
+.hero .bloub{
+    position: absolute;
+    bottom: 2rem;
+    left: 8rem;
+    z-index: -1;
+    width: 25vw;
+    max-width: 250px;
+    min-width: 100px;
+
+}
+
+.hero .bloub img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .hero .blou {
+        left: 1rem;
+        bottom: 1rem;
+        width: 35vw;
+        max-width: 150px;
+    }
 }
 
 .hero-transition {
