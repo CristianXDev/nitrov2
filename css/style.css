@@ -75,6 +75,11 @@ nav.scrolled {
     font-weight: 800;
 }
 
+nav img{
+   position:relative;
+   top:8px;
+}
+
 /* ========================
    VARIABLES DE ANIMACIÓN (@property)
 =========================== */
