@@ -324,7 +324,7 @@ nav img{
 @media (max-width: 768px) {
     .hero .bloub {
         left: 1rem;
-        bottom: 6rem;
+        bottom: 4rem;
         width: 35vw;
         max-width: 150px;
     }
