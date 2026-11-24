@@ -1666,9 +1666,6 @@ a.bento-action:hover {
     transition: color 0.25s ease;
 }
 
-.faq-question:hover {
-    color: #5b46f6;
-}
 
 .faq-icon {
     font-size: 1.5rem;
