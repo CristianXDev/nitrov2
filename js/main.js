@@ -52,3 +52,27 @@ prevBtn.addEventListener('click', () => {
         container.scrollBy({ left: -cardWidth, behavior: 'smooth' });
     }
 });
+
+
+/* ========================
+         WRAPPLER
+=========================== */
+document.querySelectorAll('.faq-question').forEach((button) => {
+    button.addEventListener('click', () => {
+        const currentItem = button.closest('.faq-item');
+        const isOpen = currentItem.classList.contains('active');
+
+        // Cierra las demás preguntas abiertas para mantener la vista limpia
+        document.querySelectorAll('.faq-item.active').forEach((openItem) => {
+            if (openItem !== currentItem) {
+                openItem.classList.remove('active');
+                const openBtn = openItem.querySelector('.faq-question');
+                if (openBtn) openBtn.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        // Alterna la pregunta seleccionada
+        currentItem.classList.toggle('active', !isOpen);
+        button.setAttribute('aria-expanded', String(!isOpen));
+    });
+});
